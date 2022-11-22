@@ -1,4 +1,4 @@
-# EX06_Layouts
+# Ex06_Layouts
 Lecture 02 - Development of Graphical User Interfaces (GUI)
 
 Different buttons provide access to a an activity that displays the selected type of layout:
