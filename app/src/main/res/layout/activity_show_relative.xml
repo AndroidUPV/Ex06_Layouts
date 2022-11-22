@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2022
+  ~ David de Andrés and Juan Carlos Ruiz
+  ~ Development of apps for mobile devices
+  ~ Universitat Politècnica de València
+  -->
+
+<!--
+  ~ RelativeLayout that positions Views with respect to their parent (layout) and other Views.
+  ~ The more modern ConstraintLayout is preferred instead of RelativeLayout
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Button aligned to the top left of the screen -->
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:text="@string/top_left" />
+
+    <!-- Button aligned to the bottom right of the screen -->
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:text="@string/bottom_right" />
+
+    <!-- Button centred in the screen -->
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:text="@string/center" />
+
+    <!-- Button positioned to the right and below the top left button -->
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button14"
+        android:layout_margin="8dp"
+        android:layout_toEndOf="@id/button14"
+        android:text="@string/right_below_1" />
+
+    <!--
+      ~ Button vertically positioned between the centre and bottom right button,
+      ~ and its right side horizontally aligned with the right side of the centre button
+      -->
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button16"
+        android:layout_below="@id/button20"
+        android:layout_alignEnd="@id/button20"
+        android:layout_margin="8dp"
+        android:text="@string/between_center_bottom" />
+</RelativeLayout>
