@@ -16,6 +16,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -23,56 +24,48 @@
             android:id="@+id/bVertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/vertical" />
 
         <Button
             android:id="@+id/bHorizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/horizontal" />
 
         <Button
             android:id="@+id/bNested"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/nested" />
 
         <Button
             android:id="@+id/bRelative"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/relative" />
 
         <Button
             android:id="@+id/bConstraint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/constraint" />
 
         <Button
             android:id="@+id/bFrame"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/frame" />
 
         <Button
             android:id="@+id/bTable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/table" />
 
         <Button
             android:id="@+id/bGrid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/grid" />
     </LinearLayout>
 </ScrollView>

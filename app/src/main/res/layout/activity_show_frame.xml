@@ -8,12 +8,12 @@
 <!-- FrameLayout holds just one View -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="8dp"
         android:text="@string/in_frame" />
 </FrameLayout>

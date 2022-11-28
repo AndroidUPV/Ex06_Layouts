@@ -13,6 +13,7 @@
     style="?android:attr/buttonBarStyle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="8dp"
     android:orientation="horizontal">
 
     <Button
@@ -20,7 +21,7 @@
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_marginEnd="4dp"
         android:text="@string/button1" />
 
     <Button
@@ -28,7 +29,8 @@
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
         android:text="@string/button2" />
 
     <Button
@@ -36,7 +38,7 @@
         style="?android:attr/buttonBarButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_marginStart="4dp"
         android:text="@string/long_text" />
 
 </LinearLayout>
