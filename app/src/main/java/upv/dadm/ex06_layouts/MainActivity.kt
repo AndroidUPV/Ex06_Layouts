@@ -1,11 +1,15 @@
-// Launch activity to display a Linearlayout with vertical orientation
 /*
- * Copyright (c) 2022
- * David de Andrés and Juan Carlos Ruiz
- * Development of apps for mobile devices
- * Universitat Politècnica de València
+ * Copyright (c) 2022-2023 Universitat Politècnica de València
+ * Authors: David de Andrés and Juan Carlos Ruiz
+ *          Fault-Tolerant Systems
+ *          Instituto ITACA
+ *          Universitat Politècnica de València
+ *
+ * Distributed under MIT license
+ * (See accompanying file LICENSE.txt)
  */
 
+// Launch activity to display a Linearlayout with vertical orientation
 package upv.dadm.ex06_layouts
 
 import android.content.Intent
